@@ -26,7 +26,7 @@ const greeting = {
     "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://www.overleaf.com/download/project/6422a4398d3b7ea02e4ec0d8/build/190da0aaec7-97243ce2eb1f1b7c/output/output.pdf?compileGroup=standard&clsiserverid=clsi-pre-emp-n2d-b-f-zvqb&enable_pdf_caching=true&popupDownload=true", // Set to empty to hide the button
+    "https://www.overleaf.com/download/project/66a14f3735f1d6ea9bc0b29d/build/190eaae94b3-edab9be369a46bc4/output/output.pdf?compileGroup=standard&clsiserverid=clsi-pre-emp-n2d-c-f-79bf&enable_pdf_caching=true&popupDownload=true", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -232,12 +232,12 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "SOME OF MY BIGGEST PROJECTS SO FAR...",
   projects: [
     {
       image: require("./assets/images/Health-i-lock.png"),
       projectName: "Health-i-Lock",
-      projectDesc: "We protexct your LifeLine",
+      projectDesc: "We protect your LifeLine",
       footerLink: [
         {
           name: "Visit Website",
@@ -274,8 +274,9 @@ const achievementSection = {
       title: "Microsoft Certified: Fabric Analytics Engineer Associate",
       subtitle:
         "Skills measured: \nPlan, implement, and manage a solution for data analytics.\nPrepare and serve data. \nImplement and manage semantic models.\nExplore and analyze data",
-      image: require("./assets/images/microsoft_cert.svg"),
-      imageAlt: "Google Code-In Logo",
+      //image: require("./assets/images/microsoft_cert.svg"),
+      image: "https://www.signon.nl/wp-content/uploads/2023/12/Fabric-Analytics-Engineer-DP-600.png",
+      imageAlt: "Microsoft Certified: Fabric Analytics Engineer Associate",
       footerLink: [
         {
           name: "Certification",
@@ -335,7 +336,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -354,7 +355,7 @@ const talkSection = {
       event_url: "#"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
