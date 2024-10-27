@@ -26,7 +26,7 @@ const greeting = {
     "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://www.overleaf.com/download/project/66a14f3735f1d6ea9bc0b29d/build/190eaae94b3-edab9be369a46bc4/output/output.pdf?compileGroup=standard&clsiserverid=clsi-pre-emp-n2d-c-f-79bf&enable_pdf_caching=true&popupDownload=true", // Set to empty to hide the button
+    "https://drive.google.com/uc?export=download&id=1UAkt6IfTN_UdyUZyOVAPdYCRIXar8I_7", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
