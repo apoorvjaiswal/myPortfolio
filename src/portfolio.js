@@ -174,27 +174,31 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Full Stack Developer",
+      company: "Finkeda",
+      companylogo: require("./assets/images/Finkeda-758x493.jpg"), // Replace with actual image path
+      date: "November 2024 – Present",
+      desc: "",
+      descBullets: [
+        "Developed the AEPS (Aadhaar Enabled Payment System) service, enabling users from tier-2 cities to perform debit and credit transactions using Aadhaar at registered merchant shops.",
+        "Implemented Indo-Nepal Money Transfer, supporting currency exchange and cross-border fund transfers from India to Nepal.",
+        "Built a P2P lending platform that allows users to borrow or lend money directly to others in need."
+      ]
+    },
+    {
       role: "Software Engineer",
-      company: "MAQ Softwares",
+      company: "MAQ Software",
       companylogo: require("./assets/images/MAQ_Software_logo.png"),
-      date: "July 2023 – Present",
+      date: "July 2023 – October 2024",
       desc: "Created a Service Request approval management system Web Application",
       descBullets: [
         "Developed a platform for monitoring Source to Target audit File request approval flow supporting vesion control system, Role based access/authorization and caching",
         "Tech Stack: React, SQL Server and Azure ADO."
       ]
     },
-
-//     Created a Service Request approval management system Web Application.
-// Tech Stack: React, SQL Server, Azure Services.
-// • Created a Project Review Tracker Platform Web Application.
-// Tech Stack: HTML, CSS, Java-script, SQL Server, dotnet MVC.
-// • Created a Automation for parsing Azure ADO Attachments and creating a
-// request based on parsed details in clients portal.
-// Tech Stack: Microsoft Power Automate, Microsoft Power Apps, Azure API.
     {
       role: "Associate Software Engineer",
-      company: "MAQ Softwares",
+      company: "MAQ Software",
       companylogo: require("./assets/images/MAQ_Software_logo.png"),
       date: "January 2023 – July 2023",
       desc: "Created Meet Summariser tool and worked on internal projects",
