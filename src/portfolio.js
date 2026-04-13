@@ -364,7 +364,7 @@ const talkSection = {
 
 // Podcast Section
 
-const podcastSection = {
+export const podcastSection = {
   title: emoji("Podcast 🎙️"),
   subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
 

@@ -9,15 +9,15 @@ export default function Footer() {
   return (
     <Fade bottom duration={1000} distance="5px">
       <div className="footer-div">
-        // <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
-        //   {emoji("Made with ❤️ by Apoorv Jaiswal")}
-        // </p>
-        // <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
-        //   Theme by{" "}
-        //   <a href="#">
-        //     Apoorv Jaiswal
-        //   </a>
-        // </p>
+        {/* <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
+          {emoji("Made with ❤️ by Apoorv Jaiswal")}
+        </p>
+        <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
+          Theme by{" "}
+          <a href="#">
+            Apoorv Jaiswal
+          </a>
+        </p> */}
       </div>
     </Fade>
   );
